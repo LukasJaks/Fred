@@ -1,12 +1,11 @@
 print("Welcome to Fred Face Adder 1.0")
-ttyped = ""
+typed = ""
 while(True):
-    ttyped = input("To add face, select A to end, press E: ").upper()
-    if(len(ttyped) != 1):
+    typed = input("To add face, select A to end, press E: ")
+    if(len(typed) != 1):
         print("invalid option")
     else:
-        if(ttyped == "A"):
+        if(typed in "Aa"):
             print("Face Added")
-        elif(ttyped == "E"):
+        elif(typed in "Nn"):
             break
-
