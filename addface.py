@@ -7,5 +7,5 @@ while(True):
     else:
         if(typed in "Aa"):
             print("Face Added")
-        elif(typed in "Nn"):
+        elif(typed in "Ee"):
             break
